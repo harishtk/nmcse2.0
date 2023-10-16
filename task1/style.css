@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', 'Arial Narrow', Arial, serif;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+.nopad {
+    padding: 0;
+}
+
+.nomar { 
+    margin: 0;
+}
+
+.horizontal div {
+    display: inline-block;
+    width: auto;
+}
+
+.quote {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gravity-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-right {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    align-content: center;
+}
+
+.align-center {
+    margin: auto;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.title-card {
+    background-color: #f0f0f0;
+    display: block;
+    padding: 5px, 10px;
+}
+
+.title {
+    color: #545456;   
+    letter-spacing: 0.4rem; 
+    font-size: 2rem;
+}
+
+.container {
+    display: block;
+    padding: 0.1rem;
+}
+
+.primary {
+    background-color: #ffffff;
+}
+
+.secondary {
+    padding: 0.1rem;
+}
+
+.surface {
+    background-color: #f0f0f0;
+}
+
+.pad-small {
+    padding: 0.3rem;
+}
+
+.display-large {
+    font-weight: 400;
+    font-size: 3.5625rem;
+    line-height: 4rem;
+    letter-spacing: -0.0156pt;
+}   
+
+.display-medium {
+    font-weight: 400;
+    font-size: 2.8125rem;
+    line-height: 3.25rem;
+    letter-spacing: 0;
+}   
+
+.display-small {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: 0;
+}   
+
+.headline-large {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+}   
+
+.headline-medium {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: 0;
+}   
+
+.headline-small {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+}   
+
+.title-large {
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+}   
+
+.title-medium {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}   
+
+.title-small {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.1pt;
+}   
+
+.label-large {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.1pt;
+}   
+
+.label-medium {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.5pt;
+}   
+
+.label-small {
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 1rem;
+    letter-spacing: 0.5pt;
+}   
+
+.body-large {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5pt;
+}   
+
+.body-medium {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25pt;
+}   
+
+.body-small {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.4pt;
+}   
