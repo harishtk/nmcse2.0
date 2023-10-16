@@ -70,6 +70,11 @@ body {
     align-content: center;
 }
 
+.form-container .form-group { display: table-row; border-spacing: 0.3rem; border-collapse: separate; }
+.form-container label { display: table-cell; }
+.form-container input { display: table-cell; }
+.form-container small { display: table-row; }
+
 .title-card {
     background-color: #f0f0f0;
     display: block;

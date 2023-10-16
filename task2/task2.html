@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="col-9 align-center">
+        <div class="display-small">Create an account</div>
+        <div class="container form-container body-medium">
+            <form action="" method="POST" onsubmit="print()">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted label-small">We'll never share your email with anyone
+                        else.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Set a password">
+                </div>
+
+                <div class="form-group">
+                    <label for="cc">Country Code</label>
+                    <input type="select" class="form-control" id="cc" placeholder="+91" value="+91" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="ph">Phone Number</label>
+                    <input type="number" class="form-control" id="ph" placeholder="Enter phone number">
+                </div>
+                <br>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function print() {
+            event.preventDefault();
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let pw = document.getElementById('password').value;
+            let cc = document.getElementById('cc').value;
+            let ph = document.getElementById('ph').value;
+
+            console.log("Name:", name);
+            console.log("Email:", email);
+            console.log("Password:", pw);
+            console.log("Country Code:", cc);
+            console.log("Phone number:", ph);
+        }
+    </script>
+</body>
+
+</html>
